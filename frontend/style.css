@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1em;
+}
+.left-side {
+  display: flex;
+  margin-left: 2em;
+}
+.logo {
+  font-weight: 900;
+  font-size: 2.5em;
+}
+.menu {
+  margin-left: 4em;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  padding-top: 0.9em;
+  font-size: 1.3em;
+  margin-bottom: 2em;
+}
+li a {
+  text-transform: none;
+  text-decoration: none;
+  color: gray;
+  margin-left: 1em;
+}
+.right-side {
+  display: flex;
+  margin-right: 2em;
+}
+.cart {
+  padding-top: 0.5em;
+  padding-right: 1.5em;
+  color: black;
+  font-size: 35px;
+}
+
+.sec {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 3em;
+  padding: 20px;
+}
+#sneakers-big {
+  width: 538px;
+  margin-right: 50px;
+}
+#sneaker-company {
+  color: rgb(250, 108, 14);
+  font-size: 2em;
+  font-weight: 800;
+  margin-top: 3em;
+}
+#fall-limited-edit {
+  margin-top: 1em;
+  margin-bottom: 0.8em;
+  font-size: 3em;
+  font-weight: 700;
+}
+.text-125 {
+  display: flex;
+}
+#t-125 {
+  margin-right: 3em;
+  font-size: 2em;
+  font-weight: 900;
+}
+#btn-50 {
+  background: rgb(233 223 204);
+  color: rgb(250, 108, 14);
+  font-size: 1.3em;
+  font-weight: 700;
+  width: 60px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+}
+#text-250 {
+  color: gray;
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+  font-size: 1.7em;
+  text-decoration: line-through;
+}
+.plus-minus {
+  background: whitesmoke;
+  margin-right: 2em;
+  width: 164px;
+  height: 33px;
+  font-size: 1.1em;
+  padding: 10px;
+  border-radius: 8px;
+}
+.min {
+  color: rgb(250, 108, 14);
+  padding-right: 2.5em;
+}
+#t-0 {
+  font-weight: 800;
+}
+.add {
+  color: rgb(250, 108, 14);
+  padding-left: 0.5em;
+  margin-left: 3.5em;
+}
+.image-comb {
+  display: flex;
+}
+.btn-cart {
+  display: flex;
+  margin-top: 1.5em;
+}
+.btn-shopping {
+  background: rgb(250, 108, 14);
+  color: white;
+  width: 200px;
+  height: 50px;
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  border-radius: 8px;
+}
